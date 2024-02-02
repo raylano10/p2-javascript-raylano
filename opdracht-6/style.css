@@ -1,7 +1,9 @@
-.vak{
+.blok{
     position: absolute;
+
     height: 50px;
     width: 50px;
-    background-color: darkorchid;
+
+    background-color: rgb(54, 197, 80);
 
 }
