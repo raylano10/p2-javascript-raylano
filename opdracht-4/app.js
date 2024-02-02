@@ -1,9 +1,7 @@
 let output = document.getElementById("weergave")
 
-let verlanglijstje = ["iphone 14", "ipad", "auto", "manga's", "pc"]
+let verlanglijst = ["iphone 14", "ipad", "auto", "manga's", "pc"]
 
-for(let i = 0; i < verlanglijstje.length; i++ ){
-
-    output.innerHTML += verlanglijstje[i] + "<br>"
-    
+for(let i = 0; i < verlanglijst.length; i++ ){
+    output.innerHTML += verlanglijst[i] + "<br>";
 }
